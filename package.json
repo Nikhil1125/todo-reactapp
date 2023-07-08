@@ -1,0 +1,32 @@
+{
+    "homepage": "https://nikhil1125.github.io/my-app",
+  "name": "eubrics",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "devStart": "nodemon server/index.js",
+    "build": "cd client && npm install && npm run build"  
+  },
+  "engines": {
+  "node": "your-node-version"
+  },
+  "module": "esnext",
+  "proxy": "http://localhost:3001",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "build": "^0.1.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.22",
+    "nvm": "^0.0.4",
+    "react-router-dom": "^5.2.0"
+  },
+  "description": ""
+}
