@@ -10,7 +10,8 @@
     "build": "cd client && npm install && npm run build"  
   },
   "engines": {
-  "node": "your-node-version"
+ "node": "18.12.0",
+ "npm": "8.19.2"
   },
   "module": "esnext",
   "proxy": "http://localhost:3001",
